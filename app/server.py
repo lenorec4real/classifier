@@ -12,7 +12,7 @@ from starlette.staticfiles import StaticFiles
 export_file_url = 'https://www.dropbox.com/s/1utigu478or3r7v/classifier.pkl?dl=1'
 export_file_name = 'export.pkl'
 
-classes = ['black', 'grizzly', 'teddys']
+classes = ['spiderman','deadpool']
 path = Path(__file__).parent
 
 app = Starlette()
